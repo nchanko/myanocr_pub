@@ -4,6 +4,7 @@ from pdf2image import convert_from_path, pdfinfo_from_path
 from PIL import Image
 import tempfile
 from google.cloud import vision
+
 from dotenv import load_dotenv
 import io
 import os
@@ -140,7 +141,10 @@ def main():
                         st.session_state.ocr_text = "\n".join(all_text)
 
             except Exception as e:
-                st.error(f"An error occurred: {e}")
+                if "credential" in str(e).lower():
+                    st.error(f"Credential error: Please check your Google Cloud credentials. Try this instruction to apply Google service acc. https://daminion.net/docs/how-to-get-google-cloud-vision-api-key/")
+                else:
+                    st.error(f"An error occurred: {e}")
             finally:
                 if 'cancel' in st.session_state:
                     del st.session_state['cancel']
