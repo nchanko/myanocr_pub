@@ -16,8 +16,8 @@ Ref: [https://daminion.net/docs/how-to-get-google-cloud-vision-api-key/](https:/
 First, clone the OCR application repository from GitHub. Open your terminal and execute the following command:
 
 ```bash
-git clone https://github.com/nchanko/myanocr.git
-cd myanocr
+git clone https://github.com/nchanko/myanocr_pub.git
+cd myanocr_pub
 ```
 
 ## Step 2: Create a Virtual Environment
