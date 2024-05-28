@@ -10,6 +10,10 @@ import io
 import os
 import shutil
 
+
+service_account_path = 'cloud_vision_service_acc.json'
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = service_account_path
+
 # Load environment variables
 load_dotenv()
 
@@ -56,6 +60,7 @@ def ocr_with_google(image_path):
     image = vision.Image(content=content)
     response = client.text_detection(image=image)
     return response.text_annotations[0].description if response.text_annotations else ""
+
 
 def split_pages(image):
     # Split the image into two pages
