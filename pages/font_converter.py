@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from myanocr.rabbit import Rabbit
+from rabbit import Rabbit
 rabbit = Rabbit()
 
 def zawgyi_to_unicode(zawgyi_text):
