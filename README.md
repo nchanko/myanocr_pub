@@ -17,7 +17,7 @@ First, clone the OCR application repository from GitHub. Open your terminal and 
 
 ```bash
 git clone https://github.com/nchanko/myanocr.git
-cd ocr_app
+cd myanocr
 ```
 
 ## Step 2: Create a Virtual Environment
