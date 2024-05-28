@@ -8,6 +8,7 @@ This README provides instructions on how to set up and run the OCR application o
 Ensure that Python (version 3.6 or later) is installed on your system. If not, download and install it from [python.org](https://python.org).
 
 ## Create Google Cloud Vision Service Account.
+You need to replace cloud_vision_service_acc.json with your own credentials. 
 Ref: [https://daminion.net/docs/how-to-get-google-cloud-vision-api-key/](https://daminion.net/docs/how-to-get-google-cloud-vision-api-key/)
 
 
