@@ -2,7 +2,7 @@ import streamlit as st
 import fitz  # PyMuPDF
 from PIL import Image
 import io
-from PyPDF2 import PdfWriter, PdfReader
+from pypdf import PdfWriter, PdfReader
 
 def load_pdf(pdf_file):
     """Load the PDF file and return the document object."""
