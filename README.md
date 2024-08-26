@@ -1,4 +1,12 @@
 
+Version 1.1
+- PDF crop
+- Epub Converter
+---- 
+Version 1.0
+Initial realease
+- OCR
+- Font Converter
 # OCR App Setup Guide
 
 This README provides instructions on how to set up and run the OCR application on macOS. Users of Windows or Linux can follow these instructions with minor adjustments.

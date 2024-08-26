@@ -1,9 +1,14 @@
+ebooklib==0.18
+fitz==0.0.1.dev2
 pdf2image==1.17.0
-Pillow==10.3.0
+Pillow==10.4.0
+PyPDF2==3.0.1
 pytesseract==0.3.10
 python-dotenv==1.0.1
-Requests==2.31.0
+Requests==2.32.3
 streamlit==1.31.0
 google-cloud-vision
-gspread
 oauth2client
+fonttools
+protobuf
+pymupdf
